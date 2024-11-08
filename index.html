@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNTn</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">DNTN</a></h2>
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+        <ul class="all-links">
+          <li><a href="home.html">home</a>
+          <li><a href="guides.html">guides</a>
+          <li><a href="Alliance.html">Alliance</a>
+          <li><a href="about.html">about</a>
+          <li><<a href="arts.html">arts</a>
+          <li><<a href="gallery.html">gallery</a>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="homepage" id="home">
+      <div class="bg"></div>
+      <!-- Your other content goes here -->
+        <div class="DOOMSDAY">DOOMSDAY</div>
+        <div class="LAST">LAST SURVIVOR</div>
+        <div class="WeUnite">WE UNITE AS A FAMILY</div>
+        <div class="DNTn">DNTn</div>
+  </div>
+
+    </section>
+
+    <section class="services" id="services">
+      <h2>Sheets-AI-Guides</h2>
+      <p>Here you find helpful guides and stats</p>
+      <ul class="cards">
+        <li class="card">
+          <a href=" https://docs.google.com/spreadsheets/d/1-dp9I7HrmN86xhcv2thRB_nl8HJHpN29CdzuVu_nqoY/edit?gid=1267181936#gid=1267181936"><img src="img/TC Calculator.png" alt="img" /></a>
+          <h3>TC Calculator</h3>
+          <p>Here you can calculate points in TC Event</p>
+        </li>
+       <!-- gun gala now have password -->
+        <li class="card">
+          <a href="https://gala-helper.vercel.app/" id="gunGalaLink" onclick="return checkPassword()"> /
+            <img src="img/Gala.png" alt="img" />
+          </a>
+          <h3>GunGala</h3>
+          <p>Use this on Gun Gala Event every Monday</p>
+        </li>
+        <li class="card">
+         <a href=" https://docs.google.com/spreadsheets/d/1K9rbMv1m2odFCDDHfBwlx5PwYzy6HGzTkAengaezZsY/edit?gid=0#gid=0"><img src="img/SupplyRecall.png" alt="img" /></a>
+          <h3>Supply Recall / Loot Exchange Helper</h3>
+          <p>you can use this to count on your supply recall event.</p>
+        </li>
+        <li class="card">
+          <a href=" https://docs.google.com/spreadsheets/d/1ga4zeBxV7VAm2IbImsUmWaBVxm6ESgeYpXHZOf1Z_EE/edit?usp=sharing"><img src="img/Doomsday.png" alt="img" /></a>
+          <h3>Kill points and progress</h3>
+          <p>here is this month kill points</p>
+        </li>
+        <li class="card">
+          <a href=" https://docs.google.com/spreadsheets/d/1NcE9pG_KtyYs7Cnc0X0fuQHHTlxFpIhpfPY9SH7EjgQ/edit?usp=sharing"><img src="img/cal.jfif" alt="img" /></a>
+          <h3>T5/T6 Calculator</h3>
+          <p>Calculate how much you need to upgrade T5 or T6</p>
+        </li>
+        <li class="card">
+           <a href=" https://discord.com/channels/1007169380771172412/1297860439903834122"><img src="img/Discord.png" alt="img" /></a>
+          <h3>Link to our site on Discord</h3>
+          <p>Here is all guides on our Discord channel</p>
+        </li>
+      </ul>
+    </section>
+
+
+    <script>
+      // password script
+      function checkPassword() {
+        // Prompt the user for a password
+        const password = prompt("Please enter the password to access Gun Gala:");
+        // the password
+        const correctPassword = "gala2048";
+
+        // Check if the entered password matches
+        if (password === correctPassword) {
+          return true;
+        } else {
+          alert("Incorrect password!");
+          return false;
+        }
+      }
+    </script>
+
+    <section class="about" id="about">
+      <h2>DNTn</h2>
+      <p>Our Alliance</p>
+     <img src="img/DNTn.png" alt="img">
+
+        <ul class="card">
+          <h3>"DNTn is an advanced fighting alliance, here we fight to our last troops"</h3>
+          <p>
+  <ul>
+  <li>If you are looking for a place where people try to build new things, DNTn is the place.</li>
+  <li>Here we have an excel team working on our members data, keeping tabs on scores and kill increases.</li>
+  <li>We have data on gold transfer (with excel sheets), we welcome outsiders storing gold here as long as you let us know.</li>
+  <li>Working help tap to heal</li>
+  <li>Gun Gale event helper (only for members)</li>
+  <li>pompeii 13-14 utc // antipede 14 utc</li>
+  <li>Follow R4-5 instruction</li>
+  <li>No drama allowed</li>
+  <li>We are a closed alliance, the only way to join is by R4 invite or member suggestion.</li>
+</ul>
+      </li>
+      </ul>
+    </section>
+
+  <section class="about" id="about">
+      <h2>About Us</h2>
+      <p></p>
+      <div class="row company-info">
+        <h3>Our Leader</h3>
+        <p>Crut•Bernkastel</p>
+        <p>President Region 246 Alliance DNTn<p>
+      </div>
+      <div class="row mission-vision">
+        <h3>Editor for this web site</h3>
+        <p>RedBull</p>
+        <h3>And a special thanks to those who have worked on Sheets-AI-Guides  </h3>
+        Halt that is the creator of GunGale<br>
+        Goku and Maddie for the kill list<br>
+        Brie Cheese for the TC points calculator<br>
+        La crema for the T5 and T& Calculator<br>
+        And a final thanks to Crut for gather this info and for helping me</p>
+      </div>
+</section>
+
+        </div>
+    </div>
+</section>
+
+
+  </body>
+</html>
