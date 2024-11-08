@@ -127,6 +127,7 @@ header a:hover, footer a:hover {
   background: rgba(255,255,255,0.3);
 }
 
+
 section {
   display: flex;
   align-items: center;
@@ -215,6 +216,13 @@ section .cards .card {
   aspect-ratio: 16 / 9;
   object-fit: cover;
   border-radius: 7px;
+}
+
+.img {
+  position: absolute;
+            top: 150px; /* Adjust these values to move the image */
+            left: Center;
+            right: center;
 }
 
 .cards .card p {
